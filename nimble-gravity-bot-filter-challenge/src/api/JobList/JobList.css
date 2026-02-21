@@ -1,0 +1,31 @@
+.job-list__title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin: 0 0 1.25rem 0;
+}
+
+.job-list__loading,
+.job-list__error,
+.job-list__empty {
+  padding: 2rem;
+  text-align: center;
+  background: var(--color-card-bg);
+  border-radius: var(--radius);
+  border: 1px solid var(--color-card-border);
+  box-shadow: var(--shadow-sm);
+}
+
+.job-list__loading {
+  color: #6b7280;
+  font-size: 1.05rem;
+}
+
+.job-list__error {
+  color: var(--color-error);
+  font-weight: 500;
+}
+
+.job-list__empty {
+  color: #6b7280;
+}
